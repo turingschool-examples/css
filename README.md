@@ -107,9 +107,15 @@ color:red;
 ### Comments
 
 * Use comments on their own line. Avoid end-of-line comments.
+* Write comments to organize blocks of code
 * Write detailed comments for code that isn't self-documenting:
   - Uses of z-index
   - Compatibility or browser-specific hacks
+
+### ID Selectors
+While it is possible to select elements by ID in CSS, it should generally be considered an anti-pattern. ID selectors introduce an unnecessarily high level of specificity to your rule declarations, and they are not reusable.
+
+For more on this subject, read CSS Wizardry's article on dealing with specificity.
 
 ### JavaScript hooks
 
